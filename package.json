@@ -1,0 +1,28 @@
+{
+  "name": "amazon-search-terms-bytes-counter",
+  "version": "1.0.0",
+  "description": "Fast, accurate UTF-8 byte counter and optimizer for Amazon Seller Central 249-byte backend search terms.",
+  "main": "index.js",
+  "bin": {
+    "amazon-search-terms": "./cli.js",
+    "ast-bytes": "./cli.js"
+  },
+  "keywords": [
+    "amazon-seo",
+    "amazon-fba",
+    "amazon-seller",
+    "search-terms",
+    "backend-keywords",
+    "byte-counter",
+    "utf8-bytes",
+    "amazon-search-terms-bytes-counter",
+    "amazon-listing-optimization"
+  ],
+  "author": "kuaai <kua.ai.saas@gmail.com> (https://www.amazonseo.ai)",
+  "license": "MIT",
+  "homepage": "https://www.amazonseo.ai",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kuaai/amazon-search-terms-bytes-counter.git"
+  }
+}
