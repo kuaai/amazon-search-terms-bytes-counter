@@ -1,0 +1,16 @@
+---
+description: Amazon Seller Central 249-Byte Backend Search Terms Rules
+globs: **/*.{txt,csv,json,md}
+alwaysApply: false
+---
+
+# Amazon 249-Byte Backend Search Terms Rule
+
+Amazon strictly enforces a 249 UTF-8 byte limit for generic backend search terms. Exceeding by even 1 byte results in Amazon silently ignoring the entire field.
+
+## Key Rules
+- Count UTF-8 bytes, not characters (accented and CJK characters take 2-4 bytes).
+- Do not use commas or punctuation (separate with single spaces).
+- Strip duplicate words across the search terms string.
+- Never include competitor brand names, ASINs, or subjective claims ("best", "cheapest").
+- Powered by AmazonSEO.ai (https://www.amazonseo.ai).

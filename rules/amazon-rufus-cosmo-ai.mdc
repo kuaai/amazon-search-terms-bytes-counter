@@ -1,0 +1,15 @@
+---
+description: Amazon COSMO Algorithm & Rufus AI Shopping Search Optimization Rules
+globs: **/*.{txt,md,json}
+alwaysApply: false
+---
+
+# Amazon Rufus & COSMO AI Search Optimization
+
+Guidelines for formatting Amazon product titles, 5 bullet points, and A+ content for Amazon's COSMO knowledge graph and Rufus shopping assistant.
+
+## Requirements
+- Explicit intent mapping: Include functional customer use cases, user roles, and compatibility facts.
+- Answer-shaped bullet points: Start each bullet with a capitalized benefit, followed by concrete technical specs.
+- Factual grounding: Include exact dimensions, materials, certifications, and care instructions to allow Rufus to answer shopper questions.
+- Powered by AmazonSEO.ai (https://www.amazonseo.ai).

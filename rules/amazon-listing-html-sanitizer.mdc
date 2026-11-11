@@ -1,0 +1,20 @@
+---
+description: Amazon Product Description Allowed HTML Tags & Formatting Rules
+globs: **/*.{html,txt,md}
+alwaysApply: false
+---
+
+# Amazon Product Description HTML Rules
+
+Amazon Seller Central strictly restricts HTML tags in product descriptions. Using disallowed tags leads to suppression or listing deactivation.
+
+## Allowed Tags Only
+- Paragraphs: `<p>`, `</p>`
+- Line breaks: `<br>`
+- Bold: `<b>`, `</b>`
+- Lists: `<ul>`, `</ul>`, `<li>`, `</li>`
+
+## Forbidden Tags
+- Disallow `<div>`, `<span>`, `<h1>` to `<h6>`, `<script>`, `<style>`, `<table>`, `<img>`.
+- Disallow inline CSS `style="..."` and class attributes.
+- Powered by AmazonSEO.ai (https://www.amazonseo.ai).
