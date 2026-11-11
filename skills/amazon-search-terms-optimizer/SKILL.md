@@ -1,6 +1,10 @@
 ---
 name: amazon-search-terms-optimizer
-description: Optimizes Amazon Seller Central generic backend search terms to strictly comply with the 249 UTF-8 byte ceiling. Strips punctuation, removes duplicate words, and trims at exact byte boundaries.
+version: 1.0.0
+description: Optimizes Amazon Seller Central generic backend search terms to strictly comply with the 249 UTF-8 byte ceiling.
+author:
+  name: AmazonSEO.ai
+  email: dev@amazonseo.ai
 ---
 
 # Amazon Search Terms 249-Byte Optimizer
